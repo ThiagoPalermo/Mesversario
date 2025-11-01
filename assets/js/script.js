@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const monthButtons = document.querySelectorAll('.grid button');
 
   // new Date(2025, 9, 2) está CORRETO (mês 9 é Outubro, pois começa em 0)
-  const dataInicio = new Date(2025, 9, 2);
+  const dataInicio = new Date(2025, 8, 2);
 
   const mensagemBloqueado = "Ainda não é o momento! Espere até o nosso mêsversário 🥰";
 
